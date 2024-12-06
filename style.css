@@ -553,3 +553,8 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+body {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+}
