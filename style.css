@@ -616,6 +616,10 @@ video {
   padding: 4rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -726,4 +730,26 @@ li {
 .hover\:bg-lime-50:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(247 254 231 / var(--tw-bg-opacity, 1));
+}
+
+@media (min-width: 640px) {
+  .sm\:p-16 {
+    padding: 4rem;
+  }
+
+  .sm\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .sm\:pr-\[30vw\] {
+    padding-right: 30vw;
+  }
+
+  .sm\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .sm\:pl-\[5vw\] {
+    padding-left: 5vw;
+  }
 }
