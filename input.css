@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-	font-optical-sizing: auto;
-	font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-family: "Roboto", sans-serif;
 }
 h1,
 h2,
@@ -12,9 +12,16 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Lora", serif;
+  font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p, li {
-	max-width: 65ch;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  max-width: 65ch;
 }
